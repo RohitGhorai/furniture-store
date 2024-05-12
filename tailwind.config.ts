@@ -1,4 +1,3 @@
-import { Plus_Jakarta_Sans } from "next/font/google";
 module.exports = {
     mode: "jit",
     content: [
@@ -39,7 +38,7 @@ module.exports = {
             },
             boxShadow: { xs: "0px 0px 13px 5px #00000029" },
             fontFamily: {
-                plusjakartasans: "Plus_Jakarta_Sans",
+                plusjakartasans: "Plus Jakarta Sans",
                 rubik: "Rubik",
                 inter: "Inter",
                 satoshi: "Satoshi",

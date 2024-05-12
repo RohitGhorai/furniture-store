@@ -1,0 +1,56 @@
+@font-face {
+    font-display: swap;
+    font-style: normal;
+    src: url("/fonts/RubikRomanMedium.ttf");
+    font-family: "Rubik";
+    font-weight: 500;
+}
+@font-face {
+    font-display: swap;
+    font-style: normal;
+    src: url("/fonts/RubikRomanRegular.ttf");
+    font-family: "Rubik";
+    font-weight: 400;
+}
+@font-face {
+    font-display: swap;
+    font-style: normal;
+    src: url("/fonts/RubikRomanSemiBold.ttf");
+    font-family: "Rubik";
+    font-weight: 600;
+}
+@font-face {
+    font-display: swap;
+    font-style: normal;
+    src: url("/fonts/RubikRomanBold.ttf");
+    font-family: "Rubik";
+    font-weight: 700;
+}
+@font-face {
+    font-display: swap;
+    font-style: normal;
+    src: url("/fonts/PlusJakartaSansRomanSemiBold.ttf");
+    font-family: "Plus Jakarta Sans";
+    font-weight: 600;
+}
+@font-face {
+    font-display: swap;
+    font-style: normal;
+    src: url("/fonts/InterMedium.ttf");
+    font-family: "Inter";
+    font-weight: 500;
+}
+@font-face {
+    font-display: swap;
+    font-style: normal;
+    src: url("/fonts/InterRegular.ttf");
+    font-family: "Inter";
+    font-weight: 400;
+}
+@font-face {
+    font-display: swap;
+    font-style: normal;
+    src: url("/fonts/RubikRomanLight.ttf");
+    font-family: "Inter";
+    font-weight: 300;
+}
