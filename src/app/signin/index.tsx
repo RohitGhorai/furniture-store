@@ -6,7 +6,7 @@ export default function SigninPage() {
     return (
         <>
             {/* signin page section */}
-            <div className="flex h-[940px] w-full items-center justify-center bg-white-A700 bg-[url(/images/img_signin.png)] bg-cover bg-no-repeat pb-[124px] md:h-auto md:py-5">
+            <div className="flex h-[100vh] w-full items-center justify-center bg-white-A700 bg-[url(/images/img_signin.png)] bg-cover bg-no-repeat md:h-auto md:py-5">
                 {/* login navigation section */}
                 <div className="container-xs flex justify-center px-[310px] md:p-5 md:px-5">
                     <div className="flex w-full flex-col items-start gap-[30px] rounded-[24px] bg-white-A700 px-10 pb-[39px] pt-11 md:pt-5 sm:p-5">
@@ -81,7 +81,7 @@ export default function SigninPage() {
                                             }
                                             suffix={
                                                 <Img
-                                                    src="img_eye.svg"
+                                                    src="img_close_eye.svg"
                                                     width={24}
                                                     height={24}
                                                     alt="eye"
@@ -110,10 +110,10 @@ export default function SigninPage() {
                             >
                                 Login
                             </Button>
-                            <div className="flex items-end gap-8 self-stretch sm:flex-col">
-                                <div className="mb-[7px] h-px flex-1 bg-gray-200_01 sm:self-stretch" />
+                            <div className="flex items-end gap-8 self-stretch lg:flex-col">
+                                <div className="lg:mb-[7px] h-px flex-1 bg-gray-200_01 sm:self-stretch" />
                                 <Text as="p">Or</Text>
-                                <div className="mb-[7px] h-px flex-1 bg-gray-200_01 sm:self-stretch" />
+                                <div className="lg:mb-[7px] h-px flex-1 bg-gray-200_01 sm:self-stretch" />
                             </div>
                             {/* social login options section */}
                             <div className="flex gap-4 self-stretch sm:flex-col">
@@ -151,7 +151,7 @@ export default function SigninPage() {
                                     New to Furnihouse?
                                 </Text>
                                 <Link
-                                    href="Register"
+                                    href="register"
                                     target="_blank"
                                     rel="noreferrer"
                                     className="self-end"
