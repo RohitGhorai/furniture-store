@@ -30,7 +30,8 @@ const RatingBar = ({
                 className={className}
                 count={starCount}
                 isHalf={false}
-                color={activeColor}
+                color={color}
+                activeColor={activeColor}
                 {...restProps}
                 key={restProps.value || 1}
             />

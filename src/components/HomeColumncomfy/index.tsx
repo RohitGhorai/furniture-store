@@ -29,8 +29,8 @@ export default function HomeColumncomfy({
                     alt="product image"
                     className="h-[270px] w-full rounded-[16px] object-cover"
                 />
-                <div className="absolute bottom-0 left-0 right-0 top-0 m-auto flex h-max w-full flex-col items-center p-2">
-                    <div className="flex flex-col items-start gap-48 md:gap-36 sm:gap-24 ">
+                <div className="absolute bottom-0 left-0 right-0 top-0 m-auto flex h-max w-max flex-col items-center p-2">
+                    <div className="flex flex-col items-center pb-[218px] pl-[218px] md:pb-5 md:pl-5 ">
                         <Button
                             color="black_900_4c"
                             variant="fill"

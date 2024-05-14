@@ -43,7 +43,7 @@ export default function HomeColumnratingBar({
                     width={148}
                     height={264}
                     alt="profileimage"
-                    className="w-[264px] h-[50%] object-cover"
+                    className="h-[264px] w-[50%] object-cover"
                 />
                 <div className="flex w-[50%] flex-col gap-6">
                     <Img

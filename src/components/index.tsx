@@ -8,6 +8,10 @@ import Footer from "./Footer";
 import Header from "./Header";
 import MegaMenu1 from "./MegaMenu1";
 import { RatingBar } from "./RatingBar";
+import HomeRowhighQuality from "./HomeRowhighQuality/index";
+import HomeColumncomfy from "./HomeColumncomfy";
+import HomeColumnOne from "./HomeColumnOne";
+import HomeColumnratingBar from "./HomeColumnratingbar";
 export {
     Text,
     Img,
@@ -19,4 +23,8 @@ export {
     Header,
     MegaMenu1,
     RatingBar,
+    HomeRowhighQuality,
+    HomeColumncomfy,
+    HomeColumnOne,
+    HomeColumnratingBar,
 };
